@@ -1,0 +1,92 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.container-navbar {
+    background-color: pink;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 25px;
+    align-items: center;
+}
+
+#biodata {
+    background: rgba(255, 255, 255, 0.384);
+    width: 500px;
+    height: 100px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(234, 28, 158);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content {
+    background-color: rgba(255, 255, 255, 0.288);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    height: 300;
+    align-items: center;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 40px;
+    color: white;
+}
